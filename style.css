@@ -68,10 +68,9 @@ hr {
 
 .AMA {
   Display:grid;
-  grid-template-areas:
-    "amad amaj";
+  grid-template-columns:1fr 2fr;
   padding: 10px;
-  grid-gap:20px;
+  grid-gap:15px;
 }
 
 .TSNZ {
@@ -86,10 +85,10 @@ hr {
   grid-gap: 15px;
   padding: 10px;
 }
-.tsj {
+/*.tsj {
     display:flex;
   flex-basis: 66%;
-}
+}*/
 .AVLC {
   Display:grid;
   grid-template-columns:1fr 2fr;
